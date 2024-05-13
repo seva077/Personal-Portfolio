@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Shalem </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Shalem studying MS in Computer science[id:0935148] at Sacred heart university,I am Eagerly looking for summer interships,
+I completed my BTech with cgpa 9.5/10 and i had done some internships in Artificial intelligence and Machine learning .</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="https://www.trafiksol.com/wp-content/themes/trafiksol/assets/images/post/image-26.jpg" alt="traffic light detection">
+            <p>This is why most modern traffic lights use what are called detectors, which allow the phases to be altered in real time. 
+Most traffic lights use inductive-loop detectors to identify road users waiting at a light; 
+this system uses a series of underground wires charged with alternating current to detect a vehicle once it rolls over the circuit..</p>
+        </div>
+        <div class="project">
+            <img src="https://industrywired.com/wp-content/uploads/2020/10/Cars-1.jpg" alt="Self driving cars project">
+            <p>The self-driving cars being worked on today have many different sensors and cameras to capture information about the world and rely on computer vision, machine learning, and many other programs to interpret and react to that information. 
+The goal is to create cars that are safe, perhaps even safer than human drivers, and efficient..</p>
+        </div>
+        <div class="project">
+            <img src="https://smartbridge.com/wp-content/uploads/sbblog_handgesturecomputervision_feat.jpg" alt="Hand Gesture recognisation">
+            <p>Hand gesture recognition is a subset of computer vision that focuses on recognizing meaningful human hand shapes or movements. 
+It is widely used in interactive systems for games, virtual reality, sign language recognition, robotics, and more. 
+With the rise of deep learning, hand-gesture recognition has become more precise and efficient..</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
